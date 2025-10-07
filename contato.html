@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Walesca Caetano</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="./index.html">
+            <div>
+                <img src="./assets/img/logo.png" alt="logo da dentista">
+            </div>
+        </a>
+        <div>
+            <a href="www.instagram.com" target="_blank">
+                <img src="./assets/icons/insta.png" alt="ícone do instagram da dentista">
+            </a>
+            <a href="#" target="_blank">
+                <img src="./assets/icons/wp.png" alt="ícone do instagram da dentista">
+            </a>
+        </div>
+        <div>
+            <ul>
+                <a href="./index.html">
+                    <li>Início</li>
+                </a>
+                <a href="./servicos.html">
+                    <li>Serviços</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <a href="#">
+                <button class="btn">Agendar Consulta</button>
+            </a>
+        </div>
+
+    </header>
+    <div class="risco"></div>
+
+    <section class="contato">
+        <div>
+            <h2>Entre em contato</h2>
+            <h3>E-mail:</h3>
+            <p>drawaleskacaetano@gmail.com</p>
+            <h3>Telefone:</h3>
+            <p>Telefone: (83) 3034-0608</p>
+            <h3>Whatsapp:</h3>
+            <p>Whatsapp: (83) 99631-1573</p>
+        </div>
+
+        <div>
+            <form action="" class="formulario">
+
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input class="formulario__input" type="text" id="nomesobrenome" reuired
+                    placeholder="Digite seu nome completo">
+
+                <label for="email">E-mail</label>
+                <input class="formulario__input" type="email" id="email" required placeholder="dominio@gmail.com.br">
+
+                <label for="tel">Telefone</label>
+                <input class="formulario__input" type="tel" id="tel" required placeholder="(00) 9 9999-9999">
+
+
+                <label for="tel">Mensagem</label>
+                <textarea class="formulario__input" name="mensagem" id="mensagem"
+                    placeholder="Escreva sua dúvida ou sugestão"></textarea>
+
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <label for="radio-email">E-mail</label> <input type="radio" name="contato" value="email"
+                        id="radio-email">
+
+                    <label for="radio-telefone">Telefone</label> <input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">
+
+                    <label for="radio-whats">E-mail</label> <input type="radio" name="contato" value="whats"
+                        id="radio-whats">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+
+                <label for="checkbox"> <input type="checkbox" name="contato" value="checkbox" id="checkbox">Gostaria de
+                    receber nossas novidades?</label>
+
+                <input class="btn" type="submit" value="Enviar Formulário">
+            </form>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <h2>Meu local de atendimento</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35543.92605193194!2d-34.82857879436186!3d-7.211738504793962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc1f0435400d7%3A0x34fdad68b9107b30!2sFarm%C3%A1cia%20Pague%20Menos!5e0!3m2!1spt-BR!2sbr!4v1759841420600!5m2!1spt-BR!2sbr"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <footer>
+        <div>
+            <h3>Informacões ao Paciente</h3>
+            <p>Sobre a Dentista</p>
+            <p>Antes e Depois</p>
+            <p>Depoimentos</p>
+        </div>
+        <a href="./servicos.html">
+            <div>
+                <h3>Serviços</h3>
+                <p>Prevencao</p>
+                <p>Canal</p>
+                <p>Clareamento</p>
+                <p>Emergencia</p>
+            </div>
+        </a>
+        <div>
+            <h3>Contato</h3>
+            <p>R. Alm. Barroso, 438 - Sala 111 - Centro, <br>João Pessoa - PB</br>
+            </p>
+            <p>83 99631-1573</p>
+            <p>drawaleskacaetano@gmail.com</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
